@@ -1,4 +1,4 @@
-.box {
+.lbox {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -98,6 +98,22 @@
         text-align: right;
         cursor: pointer;
         color: #7c3aed;
+    }
+    .message {
+        position: absolute;
+        bottom: 2rem;
+        width: 100%;
+        height: 2rem;
+        text-align: center;
+        line-height: 2rem;
+        background-color: #f87171;
+        color: white;
+        font-weight: 600;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+        &.show {
+            transform: translateY(0);
+        }
     }
 }
 .eye {

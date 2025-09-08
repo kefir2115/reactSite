@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './app/App'
 import { BrowserRouter, Route, Routes } from 'react-router';
 import LoginApp from './login/LoginApp';
+import Dashboard from './Dashboard/Dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
             <Route path="/" element={<App />} />
             <Route path="/login" element={<LoginApp recovery={false} />} />
             <Route path="/recovery" element={<LoginApp recovery />} />
+            <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
     </BrowserRouter>
 );

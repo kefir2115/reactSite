@@ -9,7 +9,7 @@ export default function Main() {
                 <p className="title">Some short note about project</p>
                 <Button>Join today</Button>
             </div>
-            <div className="box box-second" id="box2">
+            <div className="box box-second" id="about">
                 <Carousel />
             </div>
             <div className="box box-third" id="box3">

@@ -2,7 +2,7 @@ import './Footer.scss';
 
 export default function Footer() {
     return (
-        <footer className="footer">
+        <footer className="footer" id='contact'>
             <ul>
                 <li className="link">
                     <div className="img" style={{ backgroundImage: 'url(/icons/mail.svg)' }}></div>
