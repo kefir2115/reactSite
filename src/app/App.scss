@@ -1,0 +1,19 @@
+* {
+    font-size: 100%;
+    font-weight: 500;
+    background: unset;
+    text-decoration: unset;
+    color: unset;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("../../public/fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}

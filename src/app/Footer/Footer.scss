@@ -1,0 +1,23 @@
+.footer {
+    background: #ececec;
+    color: black;
+    text-align: right;
+    padding: 1rem 0;
+
+    box-shadow: 0 0 1rem #000;
+    li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .img {
+            width: 2rem;
+            height: 2rem;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    .copy {
+        text-align: right;
+        margin: 0 1rem; 
+    }
+}
